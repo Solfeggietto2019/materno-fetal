@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Variables */
+:root {
+  --color-primary: #ff99d8;
+  --color-secondary: #9440dd;
+  --color-dark: #333333;
+  --color-light-bg: #f5f5f5;
+  --color-white: #ffffff;
+  --color-border: #e5e5e5;
+}
+
+/* Custom Components */
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-secondary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity duration-200;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors duration-200;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-wrapper {
+    @apply max-w-6xl mx-auto;
+  }
+
+  .heading-xl {
+    @apply text-4xl md:text-5xl font-bold text-secondary;
+  }
+
+  .heading-lg {
+    @apply text-3xl md:text-4xl font-bold text-secondary;
+  }
+
+  .heading-md {
+    @apply text-2xl md:text-3xl font-bold text-secondary;
+  }
+
+  .subheading {
+    @apply text-lg md:text-xl text-dark font-medium;
+  }
+
+  .body-text {
+    @apply text-dark text-base leading-relaxed;
+  }
+}
+
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  color: var(--color-dark);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
