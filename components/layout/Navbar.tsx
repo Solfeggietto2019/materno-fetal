@@ -35,6 +35,7 @@ const Navbar = () => {
                 src="/images/logo.jpeg"
                 alt="Logo"
                 fill
+                sizes="(max-width: 640px) 40px, 40px"
                 className="object-contain"
               />
             </div>
