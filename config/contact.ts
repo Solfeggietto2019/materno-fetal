@@ -7,7 +7,7 @@ export const DOCTOR_INFO = {
   profileImage: '/images/profile-picture.jpeg',
   bio: 'Especialista con más de 15 años de experiencia en ultrasonidos avanzados y seguimiento materno-fetal. Comprometida con brindar el mejor cuidado a nuestras mamás y bebés.',
   credentials: [
-    'Cédula Profesional: 1234567',
+    'Cédula DGP: 12305898',
     'Especialidad: Medicina Materno Fetal',
     'Certificación: Colegio de Obstetras',
   ],
@@ -23,18 +23,18 @@ export const CONTACT_INFO = {
     {
       name: 'Consultorio Andrés Terán',
       address: 'C. Andrés Terán 1125, Chapultepec Country, 44260 Guadalajara, Jal.',
-      phone: '+52 1 XXXX-XXXXX',
+      phone: '+52 1 33 1328 1956',
       mapsUrl: 'https://maps.app.goo.gl/hd4S3XjEMKgNqZVD9',
     },
     {
       name: 'Consultorio Agaves',
-      address: 'Placeholder - Complete later',
-      phone: '+52 1 XXXX-XXXXX',
-      mapsUrl: '#',
+      address: 'Av. Aurora Boreal 84, Paseo de los Agaves, 45675 El Capulín, Jal',
+      phone: '+52 1 33 1328 1956',
+      mapsUrl: 'https://maps.app.goo.gl/S64YUqvWjtxywaDc9',
     },
   ],
   whatsapp: 'http://wa.link/to2gu3',
-  email: 'contact@example.com', // Update with real email
+  email: 'adriana_lmn93@hotmail.com',
   instagram: 'https://www.instagram.com/dradriana_ginefetalgdl/',
 } as const;
 

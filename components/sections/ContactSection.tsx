@@ -70,7 +70,7 @@ const ContactSection = () => {
                   <div className="flex-1">
                     <h4 className="font-bold text-dark mb-2">WhatsApp</h4>
                     <p className="text-sm text-gray-600 mb-3">
-                      Disponible para consultas y agendamientos
+                      Disponible para consultas y agendas rápidas
                     </p>
                     <WhatsAppCTA
                       size="sm"
